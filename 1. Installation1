@@ -1,0 +1,36 @@
+//tailwind.config.js
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",             // if using Vite
+    "./src/**/*.{js,ts,jsx,tsx}"
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+
+//index.css file
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+//App.jsx
+import './App.css'
+
+function App() {
+  return (
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+  )
+}
+export default App
+
+
+//Commands to run
+cd projectname
+npm install
+npm run dev
