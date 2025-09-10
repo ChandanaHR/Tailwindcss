@@ -1,0 +1,113 @@
+//App.jsx file
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import {Typography1,Typography2, Typography3, Typography4, Typography5, Typography6, Typography7} from './Coretypography'
+
+function App() {
+  return (
+    <div>
+      <Typography1/>
+      <Typography2/>
+      <Typography3/>
+      <Typography4/>
+      <Typography5/>
+      <Typography6/>
+       <Typography7/>
+    </div>
+  )
+}
+export default App
+
+
+//CoreTypography.jsx file
+function Typography1() {
+    return (
+        <div>
+            {/* Font-Size */}
+            <p class="text-xs">Extra small</p>
+            <p class="text-sm">Small</p>
+            <p class="text-base">Base (default)</p>
+            <p class="text-lg">Large</p>
+            <p class="text-xl">Extra Large</p>
+            <p class="text-2xl">2XL</p>
+            <p class="text-4xl">4XL</p>
+            <p class="text-6xl">6XL</p>
+        </div>
+    )
+}
+function Typography2() {
+    return (
+        <div>
+            {/* Font weight */}
+            <p class="font-thin">Thin</p>
+            <p class="font-light">Light</p>
+            <p class="font-normal">Normal</p>
+            <p class="font-medium">Medium</p>
+            <p class="font-semibold">Semi Bold</p>
+            <p class="font-bold">Bold</p>
+            <p class="font-extrabold">Extra Bold</p>
+            <p class="font-black">Black</p>
+        </div>
+    )
+}
+
+function Typography3() {
+    return (
+        // Font Style
+        <div>
+            <p class="italic">Italic text</p>
+            <p class="not-italic">Not italic</p>
+        </div>
+    )
+}
+function Typography4() {
+    return (
+        // Letter spacing
+        <div>
+            <p class="tracking-tighter">Tighter spacing</p>
+            <p class="tracking-tight">Tight spacing</p>
+            <p class="tracking-normal">Normal spacing</p>
+            <p class="tracking-wide">Wide spacing</p>
+            <p class="tracking-wider">Wider spacing</p>
+            <p class="tracking-widest">Widest spacing</p>
+        </div>
+    )
+}
+function Typography5() {
+    return (
+        // Text alignment
+        <div>
+            <p class="text-left">Left aligned</p>
+            <p class="text-center">Centered</p>
+            <p class="text-right">Right aligned</p>
+            <p class="text-justify">Justified text</p>
+        </div>
+    )
+}
+function Typography6() {
+    return (
+        // Text decoration
+        <div>
+            <p class="underline">Underlined</p>
+            <p class="line-through">Line through</p>
+            <p class="overline">Overlined</p>
+            <p class="no-underline">No underline</p>
+            <p class="decoration-dotted underline">Dotted underline</p>
+            <p class="decoration-wavy underline">Wavy underline</p>
+        </div>
+    )
+}
+function Typography7() {
+    return (
+        // Text transform
+        <div>
+            <p class="uppercase">uppercase</p>
+            <p class="lowercase">LOWERCASE</p>
+            <p class="capitalize">capitalize each word</p>
+            <p class="normal-case">Normal Case</p>
+        </div>
+    )
+}
+export  {Typography1, Typography2, Typography3, Typography4, Typography5,Typography6, Typography7}
