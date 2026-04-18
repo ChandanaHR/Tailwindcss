@@ -203,4 +203,4 @@ export function Text() {
     )
 }
 
-// https://www.notion.so/Tailwind-Text-Colors-Cheat-Sheet-33f14675ed4d8002b097c3f6f23ee292?source=copy_link
+//https://www.notion.so/Tailwind-Background-Colors-Cheat-Sheet-34614675ed4d805da0b9cf01384238c1?source=copy_link
